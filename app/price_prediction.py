@@ -6,7 +6,7 @@ import os
 import urllib.request
 
 # 1. Define the OneDrive direct download URL
-MODEL_URL = "https://direct_download_link_from_generator"  # 🔁 Replace this with the actual link
+MODEL_URL = "https://1drv.ms/u/c/fceb571c4df4b73f/EfsGTr6C72xOlNB5rLA54iYB-pUsf_a3BZGGIITZrcw_MA?e=8gP8sa"  # 🔁 Replace this with the actual link
 MODEL_PATH = "models/random_forest_model.joblib"
 DATA_PATH = "data/cleaned_data_final.csv"
 
