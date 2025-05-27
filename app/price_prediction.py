@@ -6,13 +6,13 @@ import os
 import zipfile
 
 # 1. Define paths for model zip and extracted model
-zip_path = '../models/random_forest_model.joblib.zip'
-model_path = '../models/random_forest_model.joblib'
+zip_path = 'models/random_forest_model.joblib.zip'
+model_path = 'models/random_forest_model.joblib'
 
 # 2. Unzip the model if not already extracted
 if not os.path.exists(model_path):
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-        zip_ref.extractall('../models/')
+        zip_ref.extractall('models/')
 
 # 3. Load the trained model
 model = joblib.load(model_path)
