@@ -43,7 +43,6 @@ st.subheader("Product Characteristics")
 ratings = st.slider("⭐ Product Rating (1.0 to 5.0)", 1.0, 5.0, 4.0, 0.1)
 no_of_ratings = st.number_input("👥 Number of Ratings", min_value=0, value=1000, step=100)
 actual_price = st.number_input("💰 Actual Price (₹)", min_value=0.0, value=10000.0, step=100.0)
-discount_percent = st.number_input("🔻 Discount Percentage (%)", min_value=0.0, max_value=100.0, value=10.0, step=0.1)
 
 # Display auto-detected name features
 st.markdown("### 🔍 Name-based Features")
