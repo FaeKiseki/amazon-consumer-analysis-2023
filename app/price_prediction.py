@@ -7,7 +7,7 @@ import pandas as pd
 model = joblib.load('models/random_forest_model.joblib')
 
 # 2. Load product names (only 'name' column)
-df = pd.read_csv('../data/cleaned_data_final.csv')
+df = pd.read_csv('data/cleaned_data_final.csv')
 product_names = df['name'].dropna().unique()
 
 # 3. Define prediction function
