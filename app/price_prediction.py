@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # 1. Load the trained model
-model = joblib.load('../models/random_forest_model.joblib')
+model = joblib.load('models/random_forest_model.joblib')
 
 # 2. Load product names (only 'name' column)
 df = pd.read_csv('../data/cleaned_data_final.csv')
