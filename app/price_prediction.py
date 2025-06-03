@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, accuracy_sc
 import joblib
 
 # 2. Load cleaned data
-file_path = "../data/cleaned_data_final.csv"
+file_path = "data/cleaned_data_final.csv"
 df = pd.read_csv(file_path)
 
 # 3. Create new features
